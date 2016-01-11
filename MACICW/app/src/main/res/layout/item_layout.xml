@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:gravity="center_vertical|top">
+
+
+
+    <TextView
+            android:id="@+id/m_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+                android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/m_fajr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_zuhr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_asr_shaf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_asr_han"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_maghrib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_isha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#FFFFFF"
+            android:gravity="bottom" />
+
+
+        <TextView
+            android:id="@+id/m_iqama_fajr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_iqama_zuhr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_iqama_asr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/m_iqama_maghrib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/m_iqama_isha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black" />
+
+
+</LinearLayout>
+

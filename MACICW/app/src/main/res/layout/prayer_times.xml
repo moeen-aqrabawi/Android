@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".getPrayerTimes"
+    >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:text="Prayer Times"
+        android:textColor="#FFA500"
+        android:background="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:background="#FFA500"
+        android:textColor="#FFFFFF"
+        android:text="   Date      Fajr Sunrise Zuhr Asr-Shafi Asr-Hanafi Maghrib Isha"
+        android:textSize="12sp"
+        android:layout_below="@+id/name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:layout_alignTop="@+id/listTimes"
+        android:layout_alignBottom="@+id/listTimes">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"></LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/btnServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:onClick="btnDispRemote_Click"
+        android:text="UpdateFromServer"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/listTimes"
+        android:layout_width="fill_parent"
+        android:layout_height="348dp"
+        android:divider="#00000000"
+        android:listSelector="#cfc000"
+        android:background="#FFFFFF"
+        android:scrollbars="none"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

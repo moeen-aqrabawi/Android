@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ICW</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_id">112101215803811</string>
+    <string name="ICW_text">Islamic Centre of Waterloo</string>
+    <string name="aboutus">The Islamic Centre of Waterloo (ICW) aims to cater to Waterloo’s diverse Muslim Community.  Located in the  Laurelwood area, the ICW is surrounded by over 200 Muslim families and aims to be the centre of this growing community.  The ICW is situated on 3 acres of land and has the space required to address the needs of the community in the present and the future insha’Allah.​​​​​​</string>
+
+    <string name="draw_selector_on_top">Draw selector on top</string>
+    <string name="use_selector_as_background">Use selector as background</string>
+
+</resources>
